@@ -6,10 +6,11 @@ import java.util.NoSuchElementException;
 public class BackwardArrayIt implements Iterator<Integer> {
 
     private final int[] date;
-    private int point = 3;
+    private int point;
 
-    public BackwardArrayIt(int[] data){
+    public BackwardArrayIt(int[] data, int point){
         this.date = data;
+        this.point = point;
     }
 
     @Override

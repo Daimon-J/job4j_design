@@ -16,6 +16,7 @@ public class BackwardArrayItTest {
         );
         assertThat(it.hasNext(), is(true));
         assertThat(it.hasNext(), is(true));
+        assertThat(it.hasNext(), is(true));
     }
 
     @Test

@@ -22,7 +22,7 @@ public class BackwardArrayIt implements Iterator<Integer> {
         if (!hasNext()){
             throw new NoSuchElementException();
         }
-        return date[date.length-1]; //date[date--];
+        return date[point--];
     }
 }
 

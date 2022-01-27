@@ -15,6 +15,9 @@ public class BackwardArrayIt implements Iterator<Integer> {
 
     @Override
     public boolean hasNext(){
+        if(point == -1){
+            return false;
+        }
         return point < date.length;
     }
 
